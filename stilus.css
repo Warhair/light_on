@@ -1,0 +1,34 @@
+.megjelenit{
+    width: 200px;
+}
+.vilagit {
+    border: 50px;
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgb(128, 0, 0);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+.sotet {
+    border: 50px;
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-color: green;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
