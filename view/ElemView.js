@@ -15,22 +15,21 @@ class ElemView{
        
     })
 }#htmlOsszerak(){
-        if (this.#igaze) {
+        if (this.index % 2 == 0) {
+            console.log()
             this.szuloElem.append(`
-                <div class="vilagit elem col-sm-4">
+                <div class="vilagit ${this.#index} elem col-sm-4">
                     
                 </div>
             `);
             console.log(this.#igaze)
-            this.#igaze = false;
+           
           } else {
             this.szuloElem.append(`
-            <div class="sotet elem col-sm-4">
+            <div class="sotet ${this.#index} elem col-sm-4">
                 
             </div>
-        `);
-            this.igaze = true;
-        console.log(this.#igaze) 
+        `); 
     }
     return this.igaze;
     }

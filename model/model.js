@@ -6,7 +6,7 @@ class Modell{
     constructor(){
         this.#allapot == true;
         this.#adat=0;
-        this.#lista=[".",".",".",".",".",".",".",".","."];
+        this.#lista=[1,0,1,0,1,0,1,0,1];
     }
     getAdat(){
         return this.#adat;
@@ -17,15 +17,17 @@ class Modell{
            
             this.#adat = 1;
             console.log(this.#adat)
+            this.#lista[index]=this.#adat;
             
         }
         else {
             this.#adat = 0
             console.log(this.#adat)
+            this.#lista[index]=this.#adat;
             
             
         }
-        this.#lista[index]=this.#adat;
+        
         this.#szinBeallit();
         
         console.log(this.#lista)

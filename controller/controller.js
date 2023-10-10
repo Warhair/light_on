@@ -8,7 +8,7 @@ class Controller{
            this.VIEW = new ElemView($(".megjelenit"),index)   
         }
         $(window).on("kivalaszt",()=>{
-            MODELL.allapotAllitas()
+           MODELL.allapotAllitas(event.detail.getIndex())
             event.detail.setErtek(MODELL.getAdat())
             console.log("x")
         });
